@@ -1,0 +1,86 @@
+.musica-body {
+  background: #C0392B;
+}
+
+.container {
+  width: 75%;
+}
+
+.encabezado {
+  background: #FDFEFE;
+}
+
+.logo-img {
+  width: 200px;
+  margin: 10px 0px;
+}
+
+.redes-sociales {
+  margin-top: 100px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+.area-texto img {
+  width: 30px;
+  height: 30px;
+}
+
+.navegador {
+  background: #ABB2B9;
+  height: 5rem;
+}
+
+.navegador .btn {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+  background: #FDFEFE;
+  width: 90%;
+  height: 3.5rem;
+  color: black;
+}
+
+.cuerpo {
+  background: #FDFEFE;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.foto-banda img {
+  width: 100%;
+  padding: 2px;
+  margin-top: 2rem;
+}
+
+div[class*="banda"] {
+  padding-top: 1.5rem;
+}
+
+div[class*="buscador"] {
+  padding-top: 1.5rem;
+}
+
+.buscador {
+}
+
+
+
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+  .redes-sociales{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+  }
+  .navegador {
+    height: 30rem;
+  }
+  .buscador {
+    display: none;
+  }
+}
