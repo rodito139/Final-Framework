@@ -1,0 +1,60 @@
+body {
+  background: url(../img/cocina.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.contenido {
+  background: RGB(221, 222, 222, 0.8);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.encabezado {
+  margin: 0.5rem;
+  padding: 1rem;
+  border-right: 1px solid #BBB9B9;
+}
+
+hr {
+border: 1px solid #BBB9B9;
+}
+
+.alert, .primary {
+  opacity: 0.9;
+}
+
+.fi-magnifying-glass {
+  display: inline;
+  font-size: 1.5em;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+#buscador {
+  display: inline;
+  width: 90%;
+}
+
+.historial {
+  color: #c60f13;
+}
+
+@media (max-width: 930px) {
+  #buscador {
+    width: 85%;
+  }
+}
+
+@media (max-width: 685px) {
+  #buscador {
+    width: 80%;
+  }
+  .contenido {
+    width: 100%;
+  }
+}
