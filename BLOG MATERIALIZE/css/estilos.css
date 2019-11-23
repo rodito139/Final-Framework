@@ -44,3 +44,29 @@ body {
 .fotos .responsive-img {
   margin-bottom: 5px;
 }
+
+.card-content {
+  text-align: justify;
+}
+
+entrada-1 .responsive-img {
+  padding: 0 1% 1% 0;
+  min-width: 300px
+}
+
+.entrada-1 .card-title {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.entrada-1 .chip {
+  min-width: 100px;
+}
+
+@media  (min-width:600px) and (max-width:695px) {
+  .entrada-1 i {
+    display: none;
+  }
+
+
+}
