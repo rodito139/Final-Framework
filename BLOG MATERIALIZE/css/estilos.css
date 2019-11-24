@@ -45,13 +45,8 @@ body {
   margin-bottom: 5px;
 }
 
-.card-content {
+.entrada-1 .card-panel {
   text-align: justify;
-}
-
-entrada-1 .responsive-img {
-  padding: 0 1% 1% 0;
-  min-width: 300px
 }
 
 .entrada-1 .card-title {
@@ -61,6 +56,16 @@ entrada-1 .responsive-img {
 
 .entrada-1 .chip {
   min-width: 100px;
+  margin-bottom: 5px;
+}
+
+.card-panel .autor {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.nombre-autor {
+  font-size: 2rem;
 }
 
 @media  (min-width:600px) and (max-width:695px) {

@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Importar la hojas de estilos de materialize css-->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <title>Blog Viajar para vivir</title>
 </head>
@@ -94,37 +93,162 @@
     </section>
 
     <article>
-      <div class="col s12">
+      <div class="col s12 ">
         <div class="row">
-          <div class="col l9 m8 s12 white card z-depht-1 entrada-1">
-            <div class="card-content">
-              <img class="responsive-img col l4 m4 s12 left" src="img/buzios.jfif" alt="Buzios">
-              <div class="">
+
+          <div class="col l9 m8 s12 entrada-1">
+            <div class="card-panel white z-depht-1">
+              <img class="responsive-img materialboxed col l4 m4 s12 left" src="img/buzios.jfif" alt="Buzios">
+              <div>
                 <span class="card-title col l8 m8 s12">Buzios</span>
-                <div class="chip push-m8">
+                <div class="chip">
                   <a href="#">Desde 1896</a>
                   <i class="material-icons">date_range</i>
                 </div>
-                <div class="chip push-m12">
+                <div class="chip">
                   <a href="#">Ubicacion aqui</a>
                   <i class="material-icons">location_on</i>
                 </div>
               </div>
-
               <span class="flow-text parrafo">Armação dos Búzios o, simplemente, Búzios es una ciudad brasileña situada en el Estado de Río de Janeiro, en la costa brasileña, a 190 kilómetros al este de Río de Janeiro. Esta antigua aldea de pescadores hoy es un destino turístico que atrae cada año a turistas en busca de sus playas y vida nocturna. Su población es de 30 4392​ habitantes y su área de 69 km².
-
               Está localizada en una península de 8 km de extensión con 23 playas. Por un lado recibe corrientes ecuatoriales y por el otro las provenientes del Polo Sur, lo que hace que tenga playas con aguas cálidas y heladas a la vez. Entre las principales playas se destacan Geribá, João Fernandes, Ferradura, Ferradurinha, Rasa, Manguinhos, Tartaruga, Brava e Olho-de-Boi, esta última reservada para la práctica del nudismo. Está a casi 27 km de Cabo Frío, la ciudad más cercana, de cuyo municipio dependió administrativamente hasta 1995.
-
               Sus fuertes vientos son ideales para la práctica de la vela y el vuelo libre.
-
               Es una ciudad que alberga diversas culturas con un gran número de extranjeros.</span>
+            </div>
 
+            <div class="card-panel teal lighten-2 z-depht-1 formulario">
+              <div class="row">
+                <div class="col s12 white-text">
+                  <h5>Deja tu comentario</h5>
+                </div>
+              </div>
+              <form>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix white-text">person</i>
+                    <input type="text" id="nombre" class="validate">
+                    <label class="white-text" for="nombre">Nombres y Apellidos</label>
+                  </div>
 
-
-
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix white-text">email</i>
+                    <input type="email" id="email" class="validate">
+                    <label class="white-text" for="email" data-succes="Correcto" data-error="Debes completar este campo">E-mail</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix white-text">comment</i>
+                    <textarea id="texto" class="materialize-textarea"></textarea>
+                    <label class="white-text" for="texto">Comentario</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12 center-align">
+                    <button class="btn teal darken-2 waves-effect waves-light" type="submit" name="action">
+                      Enviar<i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="col l3 m4 s12 white z-depht-1 card autor-1">
+
+          <div class="col l3 m4 s10 offset-s1 autor-1 hide-on-small-only">
+            <div class="card-panel white z-depht-1">
+              <div class="row">
+                <h6 class="center-align"><u>AUTOR DEL BLOG</u></h6>
+                <div class="col s12 center-align">
+                  <img class="circle responsive-img autor" src="img/Ger.jpg" alt="German Muises">
+                </div>
+                <div class="col s12 center-align">
+                  <span class="black-text nombre-autor">German Muises</span>
+                </div>
+                <hr>
+                <p class="center-align">
+                  (Rosario, 14 de Marzo de 1989) Soy estudiante de la carrera de Desarrollo Web de Next U.
+                  Comenze a estudiar Ingenieria Mecanica en la Facultad de Ciencias Exactas, Ingenieria y Agrimensura, en el año 2007. Luego hice un curso de reapracion de equipos informaticos en el Instituto Tecnico del Oficio Rivadavia, de la ciudad de Rosario. Y alli comence mi orientacion hacia el mundo de los dispositivos y la tecnologia. En ese entonces mas orientado a la parte de hardware. Hoy en dia, enfocado en el desarrollo web y con horizontes en la programacion de apps, seguridad informatica, los negocios, y el marketing digital, me encuentro en la etapa de estudio, y preparacion para lograr ser un profesional competente en lo referido a los negocios online.
+                  Realizo este blog como presentacion de sus conocimientos adquiridos en Materialize durante la presentacion de las diferentes lecciones y use como tematica una de mis ciudades favoritas como lo es Rio de Janeiro.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l9 m8 s12 entrada-1">
+            <div class="card-panel white z-depht-1">
+              <img class="responsive-img materialboxed col l4 m4 s12 left" src="img/angra.jpg" alt="Angra Dos Reis">
+              <div>
+                <span class="card-title col l8 m8 s12">Angra Dos Reis</span>
+                <div class="chip">
+                  <a href="#">Desde 1502</a>
+                  <i class="material-icons">date_range</i>
+                </div>
+                <div class="chip">
+                  <a href="#">Ubicacion aqui</a>
+                  <i class="material-icons">location_on</i>
+                </div>
+              </div>
+              <span class="flow-text parrafo">Angra dos Reis es una ciudad litoránea brasileña ubicada en el Estado de Río de Janeiro, a una distancia de 151 km de la capital del estado. Tiene una superficie total de 816,3 km², correspondiendo 193 km² del total a 365 islas -la mayor de las cuales es Ilha Grande- e islotes.
+              Las actividades económicas más importantes de la ciudad son las actividades portuarias, el comercio y los servicios, algunas industrias, la producción de energía nuclear (los dos reactores nucleares brasileños de la Central nuclear Almirante Álvaro Alberto están ubicados en el municipio) y el turismo en sus playas, islas y buceo.
+              El origen del nombre del lugar es el siguiente: Gaspar de Lemos, al mando de una flota naval portuguesa, encalló en la isla Grande (Ilha Grande) el 6 de enero de 1502, el Día de Reyes (en portugués, Dia de Reis). Así que el lugar fue bautizado «Angra dos Reis», que significa «Ensenada de los Reyes».</span>
+            </div>
+
+            <div class="card-panel teal lighten-2 z-depht-1 formulario">
+              <div class="row">
+                <div class="col s12 white-text">
+                  <h5>Deja tu comentario</h5>
+                </div>
+              </div>
+              <form>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix white-text">person</i>
+                    <input type="text" id="nombre" class="validate">
+                    <label class="white-text" for="nombre">Nombres y Apellidos</label>
+                  </div>
+
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix white-text">email</i>
+                    <input type="email" id="email" class="validate">
+                    <label class="white-text" for="email" data-succes="Correcto" data-error="Debes completar este campo">E-mail</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix white-text">comment</i>
+                    <textarea id="texto" class="materialize-textarea"></textarea>
+                    <label class="white-text" for="texto">Comentario</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12 center-align">
+                    <button class="btn teal darken-2 waves-effect waves-light" type="submit" name="action">
+                      Enviar<i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="col l3 m4 s10 offset-s1 autor-1 hide-on-med-and-up">
+              <div class="card-panel white z-depht-1">
+                <div class="row">
+                  <h6 class="center-align"><u>AUTOR DEL BLOG</u></h6>
+                  <div class="col s12 center-align">
+                    <img class="circle responsive-img autor" src="img/Ger.jpg" alt="German Muises">
+                  </div>
+                  <div class="col s12 center-align">
+                    <span class="black-text nombre-autor">German Muises</span>
+                  </div>
+                  <hr>
+                  <p class="center-align">
+                    (Rosario, 14 de Marzo de 1989) Soy estudiante de la carrera de Desarrollo Web de Next U.
+                    Comenze a estudiar Ingenieria Mecanica en la Facultad de Ciencias Exactas, Ingenieria y Agrimensura, en el año 2007. Luego hice un curso de reapracion de equipos informaticos en el Instituto Tecnico del Oficio Rivadavia, de la ciudad de Rosario. Y alli comence mi orientacion hacia el mundo de los dispositivos y la tecnologia. En ese entonces mas orientado a la parte de hardware. Hoy en dia, enfocado en el desarrollo web y con horizontes en la programacion de apps, seguridad informatica, los negocios, y el marketing digital, me encuentro en la etapa de estudio, y preparacion para lograr ser un profesional competente en lo referido a los negocios online.
+                    Realizo este blog como presentacion de sus conocimientos adquiridos en Materialize durante la presentacion de las diferentes lecciones y use como tematica una mezcla entre una de mis ciudades favoritas como lo es Rio de Janeiro y mi placer por los viajes de paseo.
+                  </p>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -132,13 +256,6 @@
     </article>
 
   </div>
-
-
-
-
-
-
-
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
